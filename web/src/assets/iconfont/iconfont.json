@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2747874",
+      "name": "menu",
+      "font_class": "menu",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "6450855",
+      "name": "menu",
+      "font_class": "menu1",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "10678255",
+      "name": "helmet-battle-li",
+      "font_class": "helmet-battle-li",
+      "unicode": "e912",
+      "unicode_decimal": 59666
+    }
+  ]
+}

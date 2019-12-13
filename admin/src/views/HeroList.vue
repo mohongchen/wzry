@@ -18,7 +18,7 @@
       </el-table-column>
       <el-table-column
         prop="title"
-        label="英雄名称"
+        label="称号"
       >
       </el-table-column>
       <el-table-column
@@ -66,7 +66,7 @@ export default {
       this.heros = res.data
     },
     remove(row) {
-      this.$confirm(`是否删除该分类 "${row.name}"`, '提示', {
+      this.$confirm(`是否删除该英雄 "${row.name}"`, '提示', {
         confirmButtonText: '确定',
         cancelButtonText: '取消',
         type: 'warning'

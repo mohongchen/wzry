@@ -1,0 +1,29 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1575877805299'); /* IE9 */
+  src: url('iconfont.eot?t=1575877805299#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPoAAsAAAAACJwAAAOaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDHAqEVIN9ATYCJAMQCwoABCAFhG0HSRtwBxEVnNfIfibYtg7ShwnhYn2lGBvMBA+YV//SpLNdCx+SzrBuPE0B9vvVnF8kIVfVBWUtevSBd6Gj2Ww/JEBA28Ex00XaBpZns7lkJA/XPE4eaMZXUAvvtQX5H+KtLvNiCMAKP2IQJWU1LRgo9FkCEAP79emGkdChKsgCQ2kq2KgQS9ExtHnaDWCJ9/HiO0nCAA1dol+qoXdpTwo+ya9OcqoZHeU0pg5nAdhtIIEYQIHoW2jrjgxiMUis5L9RpAEGBhp8kp+cvjqZzSDYisww/uWBhkCCMKHLbBCbEpDwyWJCg09OTAj46qRDAlopjM6Js8B/wLqU6UiUjY2tjrBcmWbhacjHn9s8/NjqwYeWR598TpwN4tbwybpNO2Btu2Df1L1WNvP3w564w6a7C+5Puzf/TjdcNqH9aqv5K+HRo/kPWsQ0eEeXtms3HTpnvcD9wQOftYdCu+mthS0tqseeI16bH7VeZb3gwpEtY6funb/fu00/2UbY0UrrvsH7xOM2j03Sw4etFieu8+ywcv5+IVqtm6qeBgQ8tYdUQIB6GiE83dft7a+DWDFt6jqmaQm2jrYjLZkX1rc4NpuuM03Bdcl1SXVBZWEBIo+YXHtIbRL5d69tO5Vhqc+2eNhh5NNBLibbTXtoMVu3zMg7tGzg7lnuVtOsi737TS91i5y0jy3+AVMDbDHhjSPdSqd797MunmblPmv3wIwA5RDqExOYt//16H5b/FeyEhb2859S1NcI3E1/mw2/jhS7Gmm/DttspH9mo9G3KCNqk0+ow8m8/YEkoE+VW8VbczMl5bRf4GqkRqwa0sU+57dhrQB45uJ7yBM1k/Me+Y35L1yjqEAUKUJdr5QksHTmar6iMzrcRQ1WhhFecwqceDWE3HUCnuMwcI1AwwJfkBiEIBU2BnSsSQETBvlgRTTl261xZjgSoSyBKGYREDhwBDTsuAISB24iFfYl6LjxE0w4YBrDyifnA9eONatiRiYoKf+npnBWmUZZ+cUPVF+dcVzoUT7gvglSEsbp5B0WPMSS/qdKRRQpdoZu5HLQ2pFn16KQsBbxpyhSRU8UFs4MVs4YZASUSO4faRQcSzmdxSpz+geofGkZrqgos34A6zWjk0QoboC8y2yjikt5TO9HJSWEQhTmGORGLKCNmEN88bgWFESo7hDxTiKspprKwukV5g53AVb0lSpNSKGEzmTY79Q+U3KooQ0kyDMRjUA3gwEAAA==') format('woff2'),
+  url('iconfont.woff?t=1575877805299') format('woff'),
+  url('iconfont.ttf?t=1575877805299') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1575877805299#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+  content: "\e612";
+}
+
+.icon-menu1:before {
+  content: "\e603";
+}
+
+.icon-helmet-battle-li:before {
+  content: "\e912";
+}
+

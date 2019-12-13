@@ -7,4 +7,6 @@ module.exports = app => {
         .catch(err => {
             console.log(err)
         })
+    // 先引入所有的模型
+    require('require-all')(__dirname+'/../models')
 }
