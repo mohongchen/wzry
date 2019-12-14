@@ -3,6 +3,7 @@ node_modules
 images
 uploads
 /dist
+dump
 
 # local env files
 .env.local
