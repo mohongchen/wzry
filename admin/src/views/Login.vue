@@ -25,10 +25,8 @@
         },
         methods: {
             async login() {
-                console.log('aa')
                 const res = await this.$http.post('login',this.model)
                 // sessionStorage.token = res.data.token
-                console.log(res)
                 localStorage.token = res.data.token
                 this.$router.push('/')
                 this.$message.success('登陆成功')

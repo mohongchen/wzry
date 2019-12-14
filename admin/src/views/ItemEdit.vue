@@ -55,15 +55,13 @@ export default {
   },
   methods: {
     async save() {
-      let res
       if (this.id) {
-        res = await this.$http.put(`rest/items/${this.id}`, this.model)
+        await this.$http.put(`rest/items/${this.id}`, this.model)
       } else {
-        res = await this.$http.post('rest/items', this.model)
+        await this.$http.post('rest/items', this.model)
       }
       this.$router.push('/items/list')
       this.$message.success('保存成功')
-      console.log(res)
     },
     async fetch() {
       const res = await this.$http.get(`rest/items/${this.id}`)
@@ -71,7 +69,6 @@ export default {
     },
     afterUpload(res) {
       this.$set(this.model, 'icon', res.url)
-      console.log(res)
       // this.model.icon = res.url
     }
   }
