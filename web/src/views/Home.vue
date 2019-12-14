@@ -135,12 +135,10 @@ export default {
     async fetchNewsCats() {
       const res = await this.$http.get('news/list')
       this.newsData = res.data
-      console.log(res)
     },
     async fetchHeroData() {
       const res = await this.$http.get('heros/list')
       this.heroData = res.data
-      console.log(res)
     }
   },
   created() {
